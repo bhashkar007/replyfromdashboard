@@ -1,0 +1,26 @@
+{#
+/**
+ * Reply from Dashboard plugin for Craft CMS
+ *
+ * Reply from Dashboard Settings.twig
+ *
+ * @author    Bhashkar Yadav
+ * @copyright Copyright (c) 2018 Bhashkar Yadav
+ * @link      http://sidd3.com
+ * @package   ReplyFromDashboard
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "replyfromdashboard/css/ReplyFromDashboard_Style.css" %}
+{% includeJsResource "replyfromdashboard/js/ReplyFromDashboard_Script.js" %}
+
+{{ forms.textField({
+    label: 'Email Field',
+    instructions: 'Enter the handle of your Email Field (Default is "email").',
+    id: 'emailField',
+    name: 'emailField', 
+    value: settings['emailField']})
+}}

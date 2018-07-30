@@ -2,8 +2,6 @@
 
 A Plugin to add Reply Button in Entry Listing Table in Dashboard.
 
-![Screenshot](resources/screenshots/plugin_logo.png)
-
 ## Installation
 
 To install Reply from Dashboard, follow these steps:
